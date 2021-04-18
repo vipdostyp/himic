@@ -1,8 +1,9 @@
 <?php
-    session_start();
-    include('config.php');
-    $result = $db->query("SELECT * FROM items");
-    $row = $result->fetchAll(PDO::FETCH_ASSOC);
+    //session_start();
+    //include('config.php');
+   // $result = $db->query("SELECT * FROM items");
+    //$row = $result->fetchAll(PDO::FETCH_ASSOC);
+echo $_SERVER['DOCUMENT_ROOT'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
