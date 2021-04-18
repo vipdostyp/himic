@@ -171,7 +171,7 @@ footer {
         font-size: 24px;
     }
 }
-@media (max-width: 425px) {
+//* @media (max-width: 425px) {
     .wrapper {
         max-width: 320px;
         width: 100%;
@@ -242,4 +242,4 @@ footer {
         font-size: 18px;
         margin-bottom: 5px;
     }
-}
+}*//
