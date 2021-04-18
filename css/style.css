@@ -151,7 +151,7 @@ footer {
     .block_title h3 {
         font-size: 20px;
     }
-   //* .card {
+    .card {
         width: 100px;
     }
     .card_logo {
@@ -162,7 +162,7 @@ footer {
     }
     .card_logo img {
         width: 40px;
-    }*//
+    }
     .card_title {
         font-size: 14px;
         margin-bottom: 5px;
