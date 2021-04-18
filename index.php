@@ -1,8 +1,8 @@
 <?php
     session_start();
-    include('config.php');
-    $result = $db->query("SELECT * FROM items");
-    $row = $result->fetchAll(PDO::FETCH_ASSOC);
+  //  include('config.php');
+   // $result = $db->query("SELECT * FROM items");
+    //$row = $result->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE html>
 <html lang="en">
