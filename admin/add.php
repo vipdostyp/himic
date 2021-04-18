@@ -2,7 +2,8 @@
     session_start();
 
     if(isset($_POST['submit'])) {
-        include('../config.php');
+        define('DB_PATH', './himic.db');
+        $db = new PDO('sqlite:'.DB_PATH);
         $name = $_POST['name'];
         $logo = $_FILES['logo']['name'];
         $text = $_POST['text'];
