@@ -1,6 +1,8 @@
 <?php
     session_start();
-    include('../config.php');
+    define('DB_PATH', '../himic.db');
+
+    $db = new PDO('sqlite:'.DB_PATH);
     if(isset($_GET['id'])) {
         $id = $_GET['id'];
         $result = $db->query("SELECT * FROM items WHERE id = :id");
