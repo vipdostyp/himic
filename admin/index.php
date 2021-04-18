@@ -1,6 +1,8 @@
 <?php
     session_start();
-    include('../config.php');
+    define('DB_PATH', './himic.db');
+
+    $db = new PDO('sqlite:'.DB_PATH);
     $result = $db->query("SELECT * FROM items");
     $row = $result->fetchAll(PDO::FETCH_ASSOC);
 ?>
