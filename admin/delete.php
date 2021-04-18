@@ -1,6 +1,6 @@
 <?php
     session_start();
-    define('DB_PATH', './himic.db');
+    define('DB_PATH', '../himic.db');
 
     $db = new PDO('sqlite:'.DB_PATH);
     if(isset($_GET['id'])) {
