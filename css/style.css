@@ -152,10 +152,10 @@ footer {
         font-size: 20px;
     }
     .card {
-        width: 150px;
+        width: 100px;
     }
     .card_logo {
-        width: 60px;
+        width: 80px;
         display: flex;
         align-items: center;
         justify-content: center;
